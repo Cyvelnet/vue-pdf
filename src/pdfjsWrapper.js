@@ -1,4 +1,4 @@
-import { PDFLinkService } from 'pdfjs-dist/web/pdf_viewer';
+import { PDFLinkService } from '@fanthos/pdfjs-dist-viewer-legacy/web/pdf_viewer';
 
 var pendingOperation = Promise.resolve();
 
