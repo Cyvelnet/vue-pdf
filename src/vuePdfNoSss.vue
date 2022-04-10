@@ -5,7 +5,7 @@ import pdfjsWorker from "pdfjs-dist/build/pdf.worker.entry";
 
 if (process.env.VUE_ENV !== "server") {
   var pdfjsWrapper = require("./pdfjsWrapper").default;
-  var PDFJS = require("pdfjs-dist");
+  var PDFJS = require("@fanthos/pdfjs-dist-viewer-legacy");
 
   if (
     typeof window !== "undefined" &&
