@@ -1,7 +1,8 @@
 <style src="./annotationLayer.css"></style>
 <script>
 import componentFactory from "./componentFactory.js";
-import pdfjsWorker from "@fanthos/pdfjs-dist-viewer-legacy/build/pdf.worker.entry";
+
+import pdfjsWorker from "@fanthos/pdfjs-dist-viewer-legacy/build/pdf.worker.js";
 
 if (process.env.VUE_ENV !== "server") {
   var pdfjsWrapper = require("./pdfjsWrapper").default;
